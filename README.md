@@ -1,5 +1,3 @@
-# Название сценария
+# Создание логической реплики Amazon RDS для PostgreSQL в Managed Service for PostgreSQL
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете перенести базу данных из кластера-источника Amazon RDS для PostgreSQL в кластер-приемник [Managed Service for PostgreSQL](https://yandex.cloud/ru/docs/managed-postgresql) с помощью логической репликации. Подготовка инфраструктуры для Managed Service for PostgreSQ через Terraform описана в [практическом руководстве](https://yandex.cloud/ru/docs/managed-postgresql/operations/logical-replica-from-rds), необходимый для настройки конфигурационный файл [logical-replica-amazon-rds-to-postgresql.tf](logical-replica-amazon-rds-to-postgresql.tf) расположен в этом репозитории.
