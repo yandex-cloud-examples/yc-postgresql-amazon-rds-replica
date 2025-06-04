@@ -1,0 +1,3 @@
+# Creating a logical replica of Amazon RDS for PostgreSQL in Yandex Managed Service for PostgreSQL
+
+To migrate a database from an Amazon RDS for PostgreSQL source cluster to a [Managed Service for PostgreSQL](https://yandex.cloud/docs/managed-postgresql) target cluster, use logical replication. See this [tutorial](https://yandex.cloud/docs/managed-postgresql/operations/logical-replica-from-rds) to learn how to prepare the infrastructure for Managed Service for PostgreSQL using Terraform. This repository contains the configuration file you will need: [logical-replica-amazon-rds-to-postgresql.tf](logical-replica-amazon-rds-to-postgresql.tf).
